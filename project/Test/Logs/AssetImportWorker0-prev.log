@@ -15,11 +15,11 @@ E:/jatin/blender objects/scooby/Scubie/project/Test
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-6597
+6083
 Successfully changed project path to: E:/jatin/blender objects/scooby/Scubie/project/Test
 E:/jatin/blender objects/scooby/Scubie/project/Test
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 28.71 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 44.07 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,57 +35,65 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002050 seconds.
+Registered in 0.003383 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 32.03 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 44.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.633 seconds
+- Completed reload, in  2.205 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000650 seconds.
+Registered in 0.001330 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.109 seconds
+- Completed reload, in  1.760 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 56.9 MB.
-System memory in use after: 57.0 MB.
+System memory in use before: 57.0 MB.
+System memory in use after: 57.1 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1555.
-Total: 2.660900 ms (FindLiveObjects: 0.241400 ms CreateObjectMapping: 0.059200 ms MarkObjects: 2.239300 ms  DeleteObjects: 0.119000 ms)
+Total: 7.607500 ms (FindLiveObjects: 0.674100 ms CreateObjectMapping: 1.224900 ms MarkObjects: 5.472900 ms  DeleteObjects: 0.229700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/traffic light/traffic light.fbx
-  artifactKey: Guid(ad91e56dc4ac5bf409f19d2f2697f4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/traffic light/traffic light.fbx using Guid(ad91e56dc4ac5bf409f19d2f2697f4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3818359ba0a55719b4932780661179') in 0.471612 seconds
-  Import took 0.476578 seconds .
+  path: Assets/rock
+  artifactKey: Guid(a1be4cda3ffbb454285d7f20d2e426a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rock using Guid(a1be4cda3ffbb454285d7f20d2e426a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7620d7416bf2cc3b9a6956c47fdb9156') in 0.042882 seconds
+  Import took 0.048958 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/traffic light/traffic light.blend
-  artifactKey: Guid(2528bb061e769f148abdd808d77b9c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/traffic light/traffic light.blend using Guid(2528bb061e769f148abdd808d77b9c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5937e6a3f73bbdf10fb9240269a0e17b') in 0.310957 seconds
-  Import took 0.314160 seconds .
+  Time since last request: 0.009089 seconds.
+  path: Assets/rock/rock43.blend
+  artifactKey: Guid(2f6c1cb3d7a2b0a42a62a0c941f8c0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rock/rock43.blend using Guid(2f6c1cb3d7a2b0a42a62a0c941f8c0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae46cd4626888f5881357d91a32f6f4') in 0.863720 seconds
+  Import took 0.872388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000415 seconds.
+  path: Assets/rock/rock43.fbx
+  artifactKey: Guid(a638291e11dfd234b82555b9b79058b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/rock/rock43.fbx using Guid(a638291e11dfd234b82555b9b79058b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71bb80d334627a718c0708b25f95505d') in 0.048928 seconds
+  Import took 0.054039 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
