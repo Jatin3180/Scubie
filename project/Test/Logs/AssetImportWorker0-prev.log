@@ -15,11 +15,11 @@ E:/jatin/blender objects/scooby/Scubie/project/Test
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-4779
+4798
 Successfully changed project path to: E:/jatin/blender objects/scooby/Scubie/project/Test
 E:/jatin/blender objects/scooby/Scubie/project/Test
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 49.28 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 64.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,57 +35,49 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004211 seconds.
+Registered in 0.003118 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.04 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 40.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.228 seconds
+- Completed reload, in  2.199 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001139 seconds.
+Registered in 0.001191 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.139 seconds
+- Completed reload, in  1.738 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
 Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.1 MB.
-System memory in use after: 57.1 MB.
+System memory in use after: 57.2 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1555.
-Total: 4.002900 ms (FindLiveObjects: 0.419900 ms CreateObjectMapping: 0.070000 ms MarkObjects: 3.309700 ms  DeleteObjects: 0.200800 ms)
+Total: 4.224500 ms (FindLiveObjects: 0.511000 ms CreateObjectMapping: 0.133300 ms MarkObjects: 3.387600 ms  DeleteObjects: 0.189900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/train/finalTrain.fbx
-  artifactKey: Guid(6b7d9097325451244a0c6426bd6f7203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/train/finalTrain.fbx using Guid(6b7d9097325451244a0c6426bd6f7203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f246d0c7263dc8ca92d7144629e911a0') in 4.905778 seconds
-  Import took 4.912690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000498 seconds.
   path: Assets/train/finalTrain.blend
   artifactKey: Guid(f5d34e42c1e230740b4057d8ea5cbb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/train/finalTrain.blend using Guid(f5d34e42c1e230740b4057d8ea5cbb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aee1850ce2118ed9fc904f7a6e5f55e') in 2.657744 seconds
-  Import took 2.671380 seconds .
+Start importing Assets/train/finalTrain.blend using Guid(f5d34e42c1e230740b4057d8ea5cbb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288961714f8f8634355cbb331c5a8331') in 2.617242 seconds
+  Import took 2.624476 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
