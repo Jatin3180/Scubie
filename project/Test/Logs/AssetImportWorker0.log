@@ -15,11 +15,11 @@ E:/jatin/blender objects/scooby/Scubie/project/Test
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-12136
+12287
 Successfully changed project path to: E:/jatin/blender objects/scooby/Scubie/project/Test
 E:/jatin/blender objects/scooby/Scubie/project/Test
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 83.74 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 28.83 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,49 +35,65 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003181 seconds.
+Registered in 0.002300 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.56 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 28.92 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.362 seconds
+- Completed reload, in  1.772 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001189 seconds.
+Registered in 0.000926 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.673 seconds
+- Completed reload, in  1.075 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.2 MB.
-System memory in use after: 57.2 MB.
+System memory in use after: 57.3 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1555.
-Total: 4.004600 ms (FindLiveObjects: 0.323200 ms CreateObjectMapping: 0.085200 ms MarkObjects: 3.388900 ms  DeleteObjects: 0.203600 ms)
+Total: 2.942900 ms (FindLiveObjects: 0.324800 ms CreateObjectMapping: 0.077100 ms MarkObjects: 2.422800 ms  DeleteObjects: 0.116100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/GUN/gun.blend
-  artifactKey: Guid(505186bec983c85468248c9a3ee123d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GUN/gun.blend using Guid(505186bec983c85468248c9a3ee123d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e6d26bc8695a742f9eb83f726d9f01') in 0.505413 seconds
-  Import took 0.510288 seconds .
+  path: Assets/Police barrier
+  artifactKey: Guid(f7ad5f6b72ea2254c8e012efbebc1e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police barrier using Guid(f7ad5f6b72ea2254c8e012efbebc1e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf07441b5b6a96503cdec69b036b28a') in 0.013277 seconds
+  Import took 0.016332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Police barrier/police barrier.fbx
+  artifactKey: Guid(3522def51bae0a4499272523a1efea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police barrier/police barrier.fbx using Guid(3522def51bae0a4499272523a1efea4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38977dda5a0385df4ca0c5d7b449320') in 0.519852 seconds
+  Import took 0.523801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Police barrier/police barrier.blend
+  artifactKey: Guid(b25df9d4b6cdd9f4bbe282dbb282d3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Police barrier/police barrier.blend using Guid(b25df9d4b6cdd9f4bbe282dbb282d3a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89bc0de2012c56a5559c202dc4aa9f8a') in 0.360472 seconds
+  Import took 0.363913 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

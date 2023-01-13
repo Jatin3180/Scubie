@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 66
+  controlID: 46
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 67
+  controlID: 16
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 68
+  controlID: 17
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -317,22 +317,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/GUN
+    - Assets/Police barrier
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/GUN
+  - Assets/Police barrier
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\jatin\blender objects\scooby\Scubie\project\Test
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 323b0000
-    m_LastClickedID: 15154
-    m_ExpandedIDs: 00000000243b000000ca9a3b
+    m_SelectedIDs: e23a0000
+    m_LastClickedID: 15074
+    m_ExpandedIDs: 00000000ce3a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -360,7 +360,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000243b0000
+    m_ExpandedIDs: 00000000ce3a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -481,9 +481,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 86f9ffff
-      m_LastClickedID: -1658
-      m_ExpandedIDs: fcfaffff
+      m_SelectedIDs: f8f8ffff
+      m_LastClickedID: -1800
+      m_ExpandedIDs: 52fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -543,9 +543,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1383.8291, y: -449.208, z: 127.94363}
+    m_Target: {x: 1396.7311, y: -451.7065, z: 92.11221}
     speed: 2
-    m_Value: {x: 1383.8291, y: -449.208, z: 127.94363}
+    m_Value: {x: 1396.7311, y: -451.7065, z: 92.11221}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -592,13 +592,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.021922732, y: 0.40656346, z: -0.009763077, w: -0.91333455}
+    m_Target: {x: -0.021472152, y: 0.65710753, z: -0.018735668, w: -0.75329286}
     speed: 2
-    m_Value: {x: -0.023276523, y: 0.4079077, z: -0.01040763, w: -0.9126671}
+    m_Value: {x: -0.022571815, y: 0.65819055, z: -0.019754728, w: -0.7522536}
   m_Size:
-    m_Target: 22.099527
+    m_Target: 5.0687966
     speed: 2
-    m_Value: 22.099527
+    m_Value: 4.850523
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -622,7 +622,7 @@ MonoBehaviour:
   m_ReplacementString: 
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
-  m_ViewIsLockedToObject: 0
+  m_ViewIsLockedToObject: 1
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
