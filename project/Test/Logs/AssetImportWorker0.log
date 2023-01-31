@@ -15,11 +15,11 @@ E:/jatin/blender objects/scooby/Scubie/project/Test
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-8169
+14787
 Successfully changed project path to: E:/jatin/blender objects/scooby/Scubie/project/Test
 E:/jatin/blender objects/scooby/Scubie/project/Test
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 59.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 72.81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,97 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003202 seconds.
+Registered in 0.003258 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.07 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 72.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.254 seconds
+- Completed reload, in  2.430 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001433 seconds.
+Registered in 0.001453 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.013 seconds
+- Completed reload, in  1.838 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.2 MB.
-System memory in use after: 57.2 MB.
+System memory in use after: 57.3 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1555.
-Total: 4.226900 ms (FindLiveObjects: 0.353600 ms CreateObjectMapping: 0.097300 ms MarkObjects: 3.569400 ms  DeleteObjects: 0.201700 ms)
+Total: 4.271800 ms (FindLiveObjects: 0.313500 ms CreateObjectMapping: 0.072500 ms MarkObjects: 3.632900 ms  DeleteObjects: 0.250200 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Police barrier/Police car.blend
-  artifactKey: Guid(1e413600938d0384690b8f957d9cf182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Police barrier/Police car.blend using Guid(1e413600938d0384690b8f957d9cf182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85d1dce4c13c6f41a511dcaf07e30cc9') in 1.891222 seconds
-  Import took 1.898317 seconds .
+  path: Assets/hotel/sofa.fbx
+  artifactKey: Guid(587b75166b3a75148997d76a157e6ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hotel/sofa.fbx using Guid(587b75166b3a75148997d76a157e6ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16519997f569d66ffb5cf706aad7319') in 0.847044 seconds
+  Import took 0.853037 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000494 seconds.
-  path: Assets/Police barrier/police stopper.blend
-  artifactKey: Guid(905b6cde4b03ea04ea1a8a15f34b1572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Police barrier/police stopper.blend using Guid(905b6cde4b03ea04ea1a8a15f34b1572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39b27f348c5356aac1398e9131f8bcea') in 0.283916 seconds
-  Import took 0.295958 seconds .
+  Time since last request: 0.000486 seconds.
+  path: Assets/hotel/frame.blend
+  artifactKey: Guid(ea35e2c267eda8e478aef6e7e91081b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hotel/frame.blend using Guid(ea35e2c267eda8e478aef6e7e91081b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7099b14c128ad3aaa539cdd0596126') in 0.095517 seconds
+  Import took 0.100498 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 103.530035 seconds.
-  path: Assets/Police barrier/Police car.blend
-  artifactKey: Guid(1e413600938d0384690b8f957d9cf182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Police barrier/Police car.blend using Guid(1e413600938d0384690b8f957d9cf182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3d753e21277688839bdc3ad8bce9bf5') in 1.083402 seconds
-  Import took 1.094315 seconds .
+  Time since last request: 0.000435 seconds.
+  path: Assets/hotel/room.blend
+  artifactKey: Guid(e63c86e7ee65aba479fd20ef40cdcf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hotel/room.blend using Guid(e63c86e7ee65aba479fd20ef40cdcf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62bcccc96e7549ea994486bcfc5b412') in 0.123316 seconds
+  Import took 0.127780 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000461 seconds.
-  path: Assets/Police barrier/Police car.fbx
-  artifactKey: Guid(100aaff3193841d41b9074e1158ffb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Police barrier/Police car.fbx using Guid(100aaff3193841d41b9074e1158ffb29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e433fed99f35d37f120d1c2c86e2d57e') in 1.184469 seconds
-  Import took 1.191450 seconds .
+  Time since last request: 0.000337 seconds.
+  path: Assets/hotel/room.fbx
+  artifactKey: Guid(9fcc9a6eeed61e64b98bd9e5d47ba6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hotel/room.fbx using Guid(9fcc9a6eeed61e64b98bd9e5d47ba6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3944536402f54eaa4872c6a83bcb1b') in 0.120437 seconds
+  Import took 0.125206 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/Police barrier/police stopper.fbx
-  artifactKey: Guid(af2dc5a459b487947bdc563ec931f4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Police barrier/police stopper.fbx using Guid(af2dc5a459b487947bdc563ec931f4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6ab2145262d5a1dd042ac406b573b1') in 0.243904 seconds
-  Import took 0.249046 seconds .
+  Time since last request: 0.000398 seconds.
+  path: Assets/hotel/sofa.blend
+  artifactKey: Guid(d731d1a576da7064ba4d14ebecc34bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hotel/sofa.blend using Guid(d731d1a576da7064ba4d14ebecc34bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f64b3227651958dd23a770f9930d872') in 0.492507 seconds
+  Import took 0.498834 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/Police barrier/police stopper.blend
-  artifactKey: Guid(905b6cde4b03ea04ea1a8a15f34b1572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Police barrier/police stopper.blend using Guid(905b6cde4b03ea04ea1a8a15f34b1572) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633ab0ee5cb03dd7787cf5c457844e02') in 0.213346 seconds
-  Import took 0.218283 seconds .
+  Time since last request: 0.000448 seconds.
+  path: Assets/hotel/reception.blend
+  artifactKey: Guid(b596352e22839984590861024cd36818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hotel/reception.blend using Guid(b596352e22839984590861024cd36818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027b1404562e1136a57a60f28fe96398') in 0.222096 seconds
+  Import took 0.228068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/hotel/frame.fbx
+  artifactKey: Guid(b02a55325c301934f981f19a21a8c0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hotel/frame.fbx using Guid(b02a55325c301934f981f19a21a8c0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdaf8c9d01658389d7bce4ac5222f21b') in 0.108883 seconds
+  Import took 0.114762 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
