@@ -15,11 +15,11 @@ E:/jatin/blender objects/scooby/Scubie/project/Test
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-14787
+3856
 Successfully changed project path to: E:/jatin/blender objects/scooby/Scubie/project/Test
 E:/jatin/blender objects/scooby/Scubie/project/Test
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 72.81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.60 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,97 +35,105 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003258 seconds.
+Registered in 0.002477 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 72.62 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 33.74 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.430 seconds
+- Completed reload, in  1.398 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001453 seconds.
+Registered in 0.000718 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.838 seconds
+- Completed reload, in  1.090 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.2 MB.
 System memory in use after: 57.3 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1555.
-Total: 4.271800 ms (FindLiveObjects: 0.313500 ms CreateObjectMapping: 0.072500 ms MarkObjects: 3.632900 ms  DeleteObjects: 0.250200 ms)
+Total: 2.390800 ms (FindLiveObjects: 0.237300 ms CreateObjectMapping: 0.056700 ms MarkObjects: 1.989200 ms  DeleteObjects: 0.105900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/hotel/sofa.fbx
-  artifactKey: Guid(587b75166b3a75148997d76a157e6ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hotel/sofa.fbx using Guid(587b75166b3a75148997d76a157e6ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16519997f569d66ffb5cf706aad7319') in 0.847044 seconds
-  Import took 0.853037 seconds .
+  path: Assets/hotel/curtain.blend
+  artifactKey: Guid(e77ddc07a7665ae4b8562e1ec0b7661b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hotel/curtain.blend using Guid(e77ddc07a7665ae4b8562e1ec0b7661b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0da9890a15d12092868a83b735c33f2') in 0.325029 seconds
+  Import took 0.330098 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000486 seconds.
-  path: Assets/hotel/frame.blend
-  artifactKey: Guid(ea35e2c267eda8e478aef6e7e91081b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hotel/frame.blend using Guid(ea35e2c267eda8e478aef6e7e91081b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7099b14c128ad3aaa539cdd0596126') in 0.095517 seconds
-  Import took 0.100498 seconds .
+  Time since last request: 0.000502 seconds.
+  path: Assets/hotel/curtain.fbx
+  artifactKey: Guid(8cb5c5326fd30814cad0057a741c9d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hotel/curtain.fbx using Guid(8cb5c5326fd30814cad0057a741c9d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a862134926c2cf6f44954c9f42fefa4') in 0.394296 seconds
+  Import took 0.408819 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000435 seconds.
-  path: Assets/hotel/room.blend
-  artifactKey: Guid(e63c86e7ee65aba479fd20ef40cdcf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hotel/room.blend using Guid(e63c86e7ee65aba479fd20ef40cdcf7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62bcccc96e7549ea994486bcfc5b412') in 0.123316 seconds
-  Import took 0.127780 seconds .
+  Time since last request: 0.001936 seconds.
+  path: Assets/hotel/tzble.fbx
+  artifactKey: Guid(c29c6cbf156cafc44a11abd57819988d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hotel/tzble.fbx using Guid(c29c6cbf156cafc44a11abd57819988d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c3eac89f261cba248662603df40501') in 0.273928 seconds
+  Import took 0.285236 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/hotel/room.fbx
-  artifactKey: Guid(9fcc9a6eeed61e64b98bd9e5d47ba6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hotel/room.fbx using Guid(9fcc9a6eeed61e64b98bd9e5d47ba6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3944536402f54eaa4872c6a83bcb1b') in 0.120437 seconds
-  Import took 0.125206 seconds .
+  Time since last request: 0.000494 seconds.
+  path: Assets/hotel/tzble.blend
+  artifactKey: Guid(03bc2c5fb7fef18438baf77c91274bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hotel/tzble.blend using Guid(03bc2c5fb7fef18438baf77c91274bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb633219879730452291844755b52c46') in 0.103627 seconds
+  Import took 0.108721 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/hotel/sofa.blend
-  artifactKey: Guid(d731d1a576da7064ba4d14ebecc34bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hotel/sofa.blend using Guid(d731d1a576da7064ba4d14ebecc34bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f64b3227651958dd23a770f9930d872') in 0.492507 seconds
-  Import took 0.498834 seconds .
+  Time since last request: 513.569105 seconds.
+  path: Assets/hotel/tzble.blend
+  artifactKey: Guid(03bc2c5fb7fef18438baf77c91274bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hotel/tzble.blend using Guid(03bc2c5fb7fef18438baf77c91274bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6dafeae574e32658601124c2f81c337') in 0.101277 seconds
+  Import took 0.111750 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000448 seconds.
-  path: Assets/hotel/reception.blend
-  artifactKey: Guid(b596352e22839984590861024cd36818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hotel/reception.blend using Guid(b596352e22839984590861024cd36818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027b1404562e1136a57a60f28fe96398') in 0.222096 seconds
-  Import took 0.228068 seconds .
+  Time since last request: 0.000223 seconds.
+  path: Assets/hotel/tzble.fbx
+  artifactKey: Guid(c29c6cbf156cafc44a11abd57819988d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hotel/tzble.fbx using Guid(c29c6cbf156cafc44a11abd57819988d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d30b657c9c83a301707b4f840f68040') in 0.089852 seconds
+  Import took 0.092594 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000526 seconds.
-  path: Assets/hotel/frame.fbx
-  artifactKey: Guid(b02a55325c301934f981f19a21a8c0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hotel/frame.fbx using Guid(b02a55325c301934f981f19a21a8c0ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdaf8c9d01658389d7bce4ac5222f21b') in 0.108883 seconds
-  Import took 0.114762 seconds .
+  Time since last request: 382.362655 seconds.
+  path: Assets/hotel/tzble.blend
+  artifactKey: Guid(03bc2c5fb7fef18438baf77c91274bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hotel/tzble.blend using Guid(03bc2c5fb7fef18438baf77c91274bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401ef223e95e623c324993e40405fc58') in 0.119550 seconds
+  Import took 0.131814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/hotel/tzble.fbx
+  artifactKey: Guid(c29c6cbf156cafc44a11abd57819988d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hotel/tzble.fbx using Guid(c29c6cbf156cafc44a11abd57819988d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8622a62c7dd32b847f5ec60a194e6137') in 0.102669 seconds
+  Import took 0.105232 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
