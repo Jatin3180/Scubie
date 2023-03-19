@@ -15,11 +15,11 @@ E:/jatin/blender objects/scooby/Scubie/project/Test
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-3831
+11204
 Successfully changed project path to: E:/jatin/blender objects/scooby/Scubie/project/Test
 E:/jatin/blender objects/scooby/Scubie/project/Test
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 54.12 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 79.84 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,80 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001786 seconds.
+Registered in 0.003204 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 30.21 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 48.85 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.383 seconds
+- Completed reload, in  2.453 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000731 seconds.
+Registered in 0.001517 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.101 seconds
+- Completed reload, in  1.762 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1113 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.2 MB.
 System memory in use after: 57.3 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1555.
-Total: 3.401800 ms (FindLiveObjects: 0.212900 ms CreateObjectMapping: 0.048500 ms MarkObjects: 2.985400 ms  DeleteObjects: 0.112400 ms)
+Total: 5.423500 ms (FindLiveObjects: 0.547800 ms CreateObjectMapping: 0.143700 ms MarkObjects: 4.490900 ms  DeleteObjects: 0.238000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/hotel/carpet.blend
-  artifactKey: Guid(828d1fdfb4b12054785c308c90723343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hotel/carpet.blend using Guid(828d1fdfb4b12054785c308c90723343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562fb3e0596b704c894cc13b20bfd954') in 0.215740 seconds
-  Import took 0.218807 seconds .
+  path: Assets/hotel/curtain.blend
+  artifactKey: Guid(e77ddc07a7665ae4b8562e1ec0b7661b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hotel/curtain.blend using Guid(e77ddc07a7665ae4b8562e1ec0b7661b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688434a823ab641ce7c4518e70e8e644') in 0.454819 seconds
+  Import took 0.460548 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000253 seconds.
+  Time since last request: 0.001157 seconds.
   path: Assets/hotel/snooker.blend
   artifactKey: Guid(8570f086b49f3d340bd50acf15f97fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hotel/snooker.blend using Guid(8570f086b49f3d340bd50acf15f97fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3608dd48dddc60ea67717fc9d38c01') in 0.358304 seconds
-  Import took 0.361610 seconds .
+Start importing Assets/hotel/snooker.blend using Guid(8570f086b49f3d340bd50acf15f97fec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c16ca13f0329a70269d15a4ff98e09') in 0.820756 seconds
+  Import took 0.830067 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/hotel/snooker.fbx
-  artifactKey: Guid(06bf7ded345a08d47b107f14b73513c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hotel/snooker.fbx using Guid(06bf7ded345a08d47b107f14b73513c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67df23e7b0c1f16acd5902e421cc27a5') in 0.347128 seconds
-  Import took 0.350369 seconds .
+  Time since last request: 0.000436 seconds.
+  path: Assets/hotel/curtain.fbx
+  artifactKey: Guid(8cb5c5326fd30814cad0057a741c9d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hotel/curtain.fbx using Guid(8cb5c5326fd30814cad0057a741c9d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a0b220f62d98c389308649adacf024') in 0.175298 seconds
+  Import took 0.181193 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/hotel/carpet.fbx
-  artifactKey: Guid(255f1a1a3113fc84f8eec928813d3cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hotel/carpet.fbx using Guid(255f1a1a3113fc84f8eec928813d3cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a0f74ce3e5d299f1076c5a48f8d751') in 0.041099 seconds
-  Import took 0.043644 seconds .
+  Time since last request: 0.000353 seconds.
+  path: Assets/hotel/squarelight.fbx
+  artifactKey: Guid(360c26b79a59f42488e6989a6bd07c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hotel/squarelight.fbx using Guid(360c26b79a59f42488e6989a6bd07c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fe47436797fe08517920d0183b0399') in 0.093794 seconds
+  Import took 0.099110 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/hotel/tzble.blend
-  artifactKey: Guid(03bc2c5fb7fef18438baf77c91274bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hotel/tzble.blend using Guid(03bc2c5fb7fef18438baf77c91274bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e6af41cf5ea54add77fc5d35e096ab') in 0.074278 seconds
-  Import took 0.077493 seconds .
+  Time since last request: 0.000345 seconds.
+  path: Assets/hotel/squarelight.blend
+  artifactKey: Guid(5dd4f077dcb0d834792233ce0542696b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hotel/squarelight.blend using Guid(5dd4f077dcb0d834792233ce0542696b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f26d476fe9d6da841b5ceda0321fec8') in 0.093333 seconds
+  Import took 0.098387 seconds .
 
-========================================================================
-Received Import Request.
-  Time since last request: 29.367865 seconds.
-  path: Assets/hotel/curtain.blend1
-  artifactKey: Guid(4769b8cf5750e5346ac35ba4b397fc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/hotel/curtain.blend1 using Guid(4769b8cf5750e5346ac35ba4b397fc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c582ecae8aa2d943bc0ec7c706c563') in 0.035318 seconds
-  Import took 0.038181 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
